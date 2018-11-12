@@ -1,0 +1,4 @@
+C:\Users\matthieuroyer\Documents\Cours\Matthieu\UWP\2018AppCompte\2018AppCompte.Data\2018AppCompte.Data.csproj;x86
+C:\Users\matthieuroyer\Documents\Cours\Matthieu\UWP\2018AppCompte\2018AppCompte.Model\2018AppCompte.Model.csproj;x86
+C:\Users\matthieuroyer\Documents\Cours\Matthieu\UWP\2018AppCompte\2018AppCompte.Model\2018AppCompte.Model.csproj;x86
+C:\Users\matthieuroyer\Documents\Cours\Matthieu\UWP\2018AppCompte\2018AppCompte\2018AppCompte.csproj;x86

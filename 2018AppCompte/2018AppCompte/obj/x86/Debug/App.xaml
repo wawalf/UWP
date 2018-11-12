@@ -1,0 +1,24 @@
+﻿<Application
+    x:Class="_2018AppCompte.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="using:_2018AppCompte.ViewModel"
+    xmlns:local="using:_2018AppCompte">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            
+            <vm:CompteDetailViewModel x:Key="CompteDetail"></vm:CompteDetailViewModel>
+            
+            <DataTemplate x:Key="TemplateCompte">
+                <StackPanel HorizontalAlignment="Center">
+                    <TextBlock x:Name="txtNomCpt"
+                               Text="{Binding NomCompte}"></TextBlock>
+                    <TextBlock x:Name="txtMontant"
+                               Text="{Binding NumCompte}"></TextBlock>
+                </StackPanel>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+

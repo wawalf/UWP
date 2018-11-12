@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="_2018AppCompte.View.CompteDetailView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_2018AppCompte.View"
+    xmlns:viewModel="using:_2018AppCompte.ViewModel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    DataContext="{Binding Source={StaticResource CompteDetail}}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBox HorizontalAlignment="Center" 
+                 Text="Mon compte sfijqzgdsdhvksjgdsqhcvkgsdhsqjdsd" VerticalAlignment="Center"
+                 Grid.Row="0" Grid.ColumnSpan="2"
+                 />
+
+        <TextBox x:ConnectionId='2' x:Name="txtNumCompte"
+                   Grid.Column="1" Grid.Row="1"
+                   Text="{Binding SelectedCompte.NumCompte, Mode=TwoWay}"></TextBox>
+
+        <Button x:ConnectionId='3' x:Name="btnTest2"                       ></Button>
+    </Grid>
+</Page>
+
